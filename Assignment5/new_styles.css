@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
+* {
+    font-family: 'Lato', sans-serif;
+
+
+} 
+
+html {
+    margin: 0px;
+    background-color: white;
+
+}
+
+body  {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#home {
+	font-weight: bold;
+    float: left;
+}
+
+
+/* Landing Page */
+.welcome h2 {
+
+        background-color: transparent;
+        font-size: 36px;
+        color:white;
+}
+
+
+
+
+.welcome a {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* The Navigation Bar */
+.navbar {
+	top: 0;
+	background-color: black;
+    width: 100%; 
+    padding: 6px;
+    float: left;
+    position: fixed; 
+    z-index: 2;
+    margin: 0px;
+}
+
+
+.navbar-functions{
+    float: right
+}
+
+
+
+.navbar a:link, .navbar a:visited {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: #f4f4f4;
+    color:grey;
+}
+/* The Navigation Bar - Dropdown to Shop flavors */
+
+
+.nav_drop {
+    float: left;
+    overflow: hidden;
+}
+
+.nav_drop .dropbtn1 {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: darkgray;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-chooseflavor {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+    color: black;
+
+}
+
+.dropdown-chooseflavor a {
+    clear: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-chooseflavor a:hover {
+	color: black;
+	background-color: darkred;
+}
+
+.nav_drop:hover .dropdown-chooseflavor {
+    display: block;
+}
+
+
+/* product detail page */
+
+
+.productList {
+    margin-top: 60px;
+    float:center;
+    margin-left: 60px;
+}
+
+/*card*/
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 5%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+    padding: 2px 6px;
+}
+
