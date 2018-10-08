@@ -29,7 +29,15 @@ body  {
 .welcome h2 {
 
         background-color: transparent;
-        font-size: 36px;
+        font-size: 40px;
+        color:white;
+        font-size:bold;
+}
+
+.welcome p {
+
+        background-color: transparent;
+        font-size: 22px;
         color:white;
 }
 
@@ -37,9 +45,9 @@ body  {
 
 
 .welcome a {
-    background-color: darkred;
+    background-color: white;
     border: none;
-    color: white;
+    color: darkred;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -103,8 +111,8 @@ body  {
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 160px;
-    z-index: 1;
+    min-width: 180px;
+    z-index: 2;
     color: black;
 
 }
@@ -112,14 +120,14 @@ body  {
 .dropdown-chooseflavor a {
     clear: left;
     color: black;
-    padding: 12px 16px;
+    padding: 38px 16px;
     text-decoration: none;
     text-align: left;
 }
 
 .dropdown-chooseflavor a:hover {
 	color: black;
-	background-color: darkred;
+	background-color: lightgrey;
 }
 
 .nav_drop:hover .dropdown-chooseflavor {
@@ -127,7 +135,7 @@ body  {
 }
 
 
-/* product detail page */
+/* product Browsing page */
 
 
 .productList {
@@ -143,7 +151,7 @@ body  {
     margin-right: 30px;
     margin-top: 10px;
     float: left;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 .card:hover {
@@ -152,5 +160,116 @@ body  {
 
 .cardcontainer {
     padding: 2px 6px;
+}
+
+
+
+
+/* product detail page */
+
+
+
+
+.subnav {
+    clear: left;
+    text-align: left;
+    margin: 40px;
+    margin-top: 80px;
+    color: black;
+    margin-bottom: 20px;
+}
+.subnav a {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+.productImage {
+    width: 50%;
+    float: left;
+}
+#Originalpic {
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.productDescription {
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+    position:relative;
+    top:60px;
+    font-size: 16px;
+}
+.Choice{
+    border: 3px solid #73AD21;
+}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    margin-top: 0px;
+    position:relative;
+    top:60;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: darkred;}
+
+
+.buttonCart {
+    background-color: darkred; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
 }
 
