@@ -1,0 +1,388 @@
+
+/* Global Style*/
+* {
+    font-family: 'Lato', sans-serif;
+
+
+} 
+
+html {
+    margin: 0px;
+    background-color: white;
+
+}
+
+body  {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+/* Nav Bar */
+#home {
+	font-weight: bold;
+    float: left;
+    font-size: 18px;
+}
+
+/*#Shop{
+    float: left;
+    font-size: 15px;
+}*/
+
+#About {
+    float: left;
+    font-size: 15px;
+    color:white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    text-align: left;
+    margin-top: 0px;
+    position:relative;
+    top:60;
+}
+
+
+
+/* Landing Page (Home Page)*/
+.welcome h2 {
+
+        background-color: transparent;
+        font-size: 40px;
+        color:white;
+        font-size:bold;
+}
+
+.welcome p {
+
+        background-color: transparent;
+        font-size: 22px;
+        color:white;
+}
+
+
+
+
+.welcome a {
+    background-color: white;
+    border: none;
+    color: darkred;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* The Navigation Bar */
+.navbar {
+	top: 0;
+	background-color: black;
+    width: 100%; 
+    padding: 6px;
+    float: left;
+    position: fixed; 
+    z-index: 2;
+    margin: 0px;
+}
+
+
+.navbar-functions{
+    float: right
+}
+
+
+
+.navbar a:link, .navbar a:visited {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: #f4f4f4;
+    color:grey;
+}
+
+/* The Navigation Bar - Dropdown to Shop flavors */
+
+.nav_drop {
+    overflow: hidden;
+    float: left;
+}
+
+.navpic{
+    color:black;
+    font-size: 15px
+}
+
+
+.nav_drop .dropbtn1 {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: darkgray;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-chooseflavor {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 180px;
+    z-index: 2;
+    color: black;
+
+}
+.dropdown-chooseflavor a {
+    clear: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+.dropdown-chooseflavor a:hover {
+	color: black;
+	background-color: lightgrey;
+}
+
+.nav_drop:hover .dropdown-chooseflavor {
+    display: block;
+}
+
+
+
+/* product Browsing page */
+.productList {
+    margin-top: 60px;
+    float:center;
+    margin-left: 60px;
+}
+
+/*cards*/
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 2%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+    padding: 2px 6px;
+}
+
+
+
+
+/* product detail page */
+.subnav {
+    clear: left;
+    text-align: left;
+    margin: 40px;
+    margin-top: 80px;
+    color: black;
+    margin-bottom: 20px;
+}
+.subnav a {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+.productImage {
+    width: 50%;
+    float: left;
+}
+#largepic {
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.productDescription {
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+    position:relative;
+    top:60px;
+    font-size: 16px;
+}
+.Choice{
+    border: 3px solid #73AD21;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    margin-top: 0px;
+    position:relative;
+    top:60;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: darkred;}
+
+
+
+.ctabtn {
+    background-color: darkred;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    border: none;
+    color: white;
+    width: 280px;
+    font-weight: bold;
+    align-self: center;
+    color: gray;
+    padding: 14px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    display:inline block;
+
+}
+#homeshop{
+    text-decoration: none;
+    color: darkred;
+}
+#addtocart {
+    text-decoration: none;
+}
+
+#cart-info {
+    margin: 100px;
+    padding: 30px;
+    width: 100%;
+    color:white;
+}
+
+.reviewproduct {
+    float: left;
+    margin-top: 30px;
+    width: 600px;
+    position:relative;
+    left:160px;
+
+}
+.checkout {
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    width: 200px;
+    background-color: transparent;
+    float: left;
+}
+
+/* Shopping Cart*/
+
+#cart-info {
+    margin: 100px;
+    padding: 30px;
+    width: 100%;
+}
+
+.review {
+    float: left;
+    margin-top: 30px;
+    width: 600px;
+
+}
+.summary {
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    width: 300px;
+    background-color: #f4f4f4;
+    float: left;
+    color:black;
+}
+
+#order-summary {
+   text-align: center;
+   font-size: 16px;
+   font-weight: 700;
+   color:black;
+
+}
+
+
+
+#delete {
+    margin-top: 60px;
+    padding-left: 30px;
+
+
+}
+
+/* Citation: W3 SChool https://www.w3schools.com/css/default.asp; */
