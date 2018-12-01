@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+
+The PUI Project
+
+-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>Design In Japan</title>
+
+
+  <!-- Responsive using bootstrap
+   ================================================== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Main CSS File
+   ================================================== -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- All the rest of CSS Files 
+   ================================================== -->
+  <link rel="stylesheet" href="css/animate.min.css"> 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+
+
+  <!-- Javascript 
+  ================================================== -->
+
+  <!-- The main javascript file -->
+  
+  <script src="js/jquery.js"></script>
+
+  <!-- responsive using bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Ato_main.js"></script>
+
+  <!-- layout and filtering libarary Isotope -->
+  <script src="js/isotope.js"></script>
+
+  <!-- To prevent image overlapping issue when using Isotope -->
+  <script src="js/imagesloaded.min.js"></script>
+
+  <!-- Animation effects -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- Source Sans Pro Typeface from Google -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+
+
+
+<!-- Hamburger Menu -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- website logo -->
+          <div class="navbar-header">
+               <a href="index.html" class="navbar-brand">Āto</a>
+          </div>
+
+          <!-- Menu Contents -->
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe" id = iconmenu></i>
+                    <div class="intro-inner">
+                      <ul id="nav-menu">
+                        <li><a href="index.html">Featured Designs</a></li>
+                        <li><a href="Artist.html">Featured Artists</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+     </div>
+</div>
+
+<!-- Learn more about the Artists -->
+<section id="about">
+   <div class="container">
+      <div class="row">
+		<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
+		    <img src="img/bannar1.png" class="img-responsive">
+			<h1>THE CONTEMPORARY ARTISTS AND DESIGNERS</h1>
+			<h3>Click on the portraits to learn more about them</h3>
+		</div>
+   </div>
+</section>
+
+
+<!-- The Artists Gallery -->
+<div class="container">
+    <!-- Portrait thumbnails -->
+  <div class="row">
+    <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.5s">
+
+	    <div class="column">
+	      <img class="demo cursor" src="artist_img/person1.png" style="width:100%" onclick="currentSlide(1)" >
+	    </div>
+	    <div class="column"> 
+	      <img class="demo cursor" src="artist_img/person2.png" style="width:100%" onclick="currentSlide(2)" >
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="artist_img/person3.png" style="width:100%" onclick="currentSlide(3)" >
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="artist_img/person4.png" style="width:100%" onclick="currentSlide(4)" >
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="artist_img/person5.png" style="width:100%" onclick="currentSlide(5)" >
+	    </div> 
+	    <div class="column">
+	      <img class="demo cursor" src="artist_img/person6.png" style="width:100%" onclick="currentSlide(6)" >
+	    </div>
+	  </div>
+</div>
+
+
+  <!-- Full Description on the Artists here -->
+  <div class="mySlides">
+      <img src="artist_img/person1detail.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <img src="artist_img/person2detail.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <img src="artist_img/person3detail.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <img src="artist_img/person4detail.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <img src="artist_img/person5detail.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <img src="artist_img/person6detail.jpg" style="width:100%">
+  </div>
+
+
+
+</body>
+</html>

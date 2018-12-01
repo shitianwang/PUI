@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+
+Landing Page - Featured Cases with Filtering
+
+-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <title>Design and Art in Japan</title>
+
+  <!-- Responsive using bootstrap
+   ================================================== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Main CSS File
+   ================================================== -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- All the rest of CSS Files 
+   ================================================== -->
+  <link rel="stylesheet" href="css/animate.min.css"> 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+
+
+  <!-- Javascript 
+  ================================================== -->
+
+  <!-- The main javascript file -->
+  
+  <script src="js/jquery.js"></script>
+
+  <!-- responsive using bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Ato_main.js"></script>
+
+  <!-- layout and filtering libarary Isotope -->
+  <script src="js/isotope.js"></script>
+
+  <!-- To prevent image overlapping issue when using Isotope -->
+  <script src="js/imagesloaded.min.js"></script>
+
+  <!-- Animation effects -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- Source Sans Pro Typeface from Google -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+  
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+
+
+
+<!-- Hamburger Menu -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- website logo -->
+          <div class="navbar-header">
+               <a href="index.html" class="navbar-brand">Āto</a>
+          </div>
+
+          <!-- Menu Contents -->
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe" id = iconmenu></i>
+                    <div class="intro-inner">
+                      <ul id="nav-menu">
+                        <li><a href="index.html">Featured Designs</a></li>
+                        <li><a href="Artist.html">Featured Artists</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+     </div>
+</div>
+
+<!-- landing page background -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="home-text">
+                         <h1>Explore Contemporary Art and Design in Japan 
+                          日本の美術とデザインを探求する</h1>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+
+     <!-- Background video-->
+     <video controls="" autoplay="" loop="" muted>
+          <source src="video/kusama.mp4" type="video/mp4">
+     </video>
+</section>
+
+
+
+
+
+<!-- Featured Design section
+================================================== -->
+<section id="portfolio">
+   <div class="container">
+      <div class="row">
+
+         <div class="col-md-12 col-sm-12">
+            
+
+               <div class="iso-section wow fadeInUp" data-wow-delay="2.8s">
+
+                  <ul class="filter-wrapper clearfix">
+                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".physical">Physical</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".Installation">Installation</a></li>
+                        </ul>
+
+
+                        <div class="iso-box-section wow fadeInUp" data-wow-delay="2.9s">
+                           <div class="iso-box-wrapper col4-iso-box">
+
+                              <div class="iso-box physical branding col-md-4 col-sm-4">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case1.jpg" alt="case1">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case1.html"><i class="fa fa-link"></i></a>
+                                                <h2>UNIQLO</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box Installation col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case2.jpg" >
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case2.html"><i class="fa fa-link"></i></a>
+                                                <h2>FUJI KINDERGARTEN</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box branding col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case3.jpg"  >
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case3.html"><i class="fa fa-link"></i></a>
+                                                <h2>YAYOI</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box physical Installation col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case4.jpg" >
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case4.html"><i class="fa fa-link"></i></a>
+                                                <h2>7-11</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box Installation branding col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case5.jpg" >
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case5.html"><i class="fa fa-link"></i></a>
+                                                <h2>SMAP</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box physical branding col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="img/case6.jpg" >
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="case6.html"><i class="fa fa-link"></i></a>
+                                                <h2>JAPAN NATIONAL ART CENTER</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                            </div>
+                        </div>
+
+               </div>
+
+         </div>
+
+      </div>
+   </div>
+</section>
+
+<!-- Footer and Email
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+      <div class="wow fadeInUp col-md-6 col-sm-4">
+                    <h3>Ato - Made with Coffee and Passion</h3>
+                    <p>A place to get inspired by modern Japanese Art and Design.</p>
+      </div>
+
+
+      <div class="wow fadeInUp col-md-6 col-sm-4">
+                    <h3>Keep up with the trend</h3>
+                    <form class="newsletter" action="#" method="get">
+                         <input name="email" type="email" class="form-control" id="email" placeholder="Your Email Address">
+                         <button name="submit" value="sign-up" class='form-control'>Sign Up</button>
+                    </form>
+       </div>
+
+
+			
+		</div>
+	</div>
+</footer>
+
+
+
+
+</body>
+</html>
